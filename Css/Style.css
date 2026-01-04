@@ -11,123 +11,64 @@ body {
 }
 
 nav {
-  position: fixed;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  background-color: black;
-  padding: 5px;;
   align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 0, 0);
+  padding: 4px;
+}
+.logo {
+    cursor: pointer;
+}
+.inputs {
+  align-items: center;
+   align-items: center;
+}
+.inputs .search {
+ position: relative;
+  left: 490px; 
+  font-size: .9rem;
+  color:rgb(0, 0, 0);
+  top: 0px;
+    cursor: pointer;
+}
+.inputs input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 500px;
 }
 
-nav .navigation ul {
- display: flex;
- justify-content: center;
- 
+.dropdowns #dropdown {
+  font-size: .9rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color:rgb(24, 101, 232); ;
+  cursor: pointer;
+  margin-right: -123px;
 }
-nav .navigation ul li{
-  list-style-type: none;
+.dropdowns #dropdown option {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 100px;
 }
-nav .navigation ul li a {
-  color: rgb(26, 103, 233);
-  font-size: 1rem;
-  align-items: center;
+.container {
+  margin-right: 35px;
   display: flex;
-  margin-right: 30px;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  gap: 13px;
+   align-items: center;
 }
-nav .navigation ul li a:hover {
+i {
+  color: rgb(24, 101, 232);
+   display: flex;
+  gap: 2px;
+}
+span {
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
-
- .container{
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-   background: #fff;
-   position: relative;
-   left: 360px;
-   top: -25px;
-   transition: 0.5s ease;
-   
- }
-  .container.active {
-    width: 150px;
-    float: left;
-  }
- .container .icon {
-  position: absolute;
-  left: 13px;
-  top: 50%;
-  transform: translate(-50%, -50%);
- }
-   .container .icon .search  {
-  font-size: 15px;
-  cursor: pointer;
-  color: rgb(26, 103, 233);
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: orange;
- }
-
- .container{
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-   background: #fff;
-   position: relative;
-   transition: 0.5s ease
- }
-  .container.active {
-    width: 300px;
-  }
- .container .icon {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translate(-50%, -50%);
- }
-  .container .icon .search  {
-  font-size: 21px;
-  cursor: pointer;
-  color: black;
-  }
-  */

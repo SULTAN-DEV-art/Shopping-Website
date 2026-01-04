@@ -13,34 +13,31 @@
 <body>
 
 <nav>
-  <div class="logo"><img src="/images/logo1.png" alt="" style="width: 160px;"></div>
-  <div class="container">
-  <div class="icon">
-     <i class="search fa fa-search"></i> 
+
+  <div class="logo"><img src="/images/logo1.png" alt="" style="width: 170px;"></div>
+
+<div class="inputs">
+  <i class="search fa fa-search"></i>
+  <span> <input type="search" placeholder="Search..."></span>
+</div>
+
+    <div class="dropdowns">
+   <select name="dropdown" id="dropdown">
+<option><a href="#">Home</a></option>
+<option><a href="#">Category</a></option>
+<option><a href="#">Deals/Offer</a></option>
+<option><a href="#">About</a></option>
+   </select>
   </div>
+
+<div class="container">
+  <span><i class="fa-solid fa-user"></i> User</span>
+  <span><i class="fa-solid fa-cart-arrow-down"></i> Cart</span>
+  <span><i class="fa-solid fa-question"></i> Support</span>
 </div>
-<div class="navigation">
-  <ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Category</a></li>
-  <li><a href="#">Deals/Offer</a></li>
-  <li><a href="#">Account</a></li>
-  <li><a href="#">Cart</a></li>
-</ul>
 </div>
+
 </nav>
-
-
-
-<script>
-  
-let search = document.querySelector('.search');
-
-search.onclick = function() {
-  document.querySelector('.container').classList.toggle('active');
-}
-
-</script>
 
 
 </body>
