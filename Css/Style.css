@@ -207,6 +207,8 @@ font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   gap: 25px;
+  flex: 25%;
+
 }
 .product1 {
   margin-left: 10px;;
@@ -219,6 +221,7 @@ font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
   align-items: center;
   position: relative;
+   cursor: pointer;
 }
 .card .product1:hover {
   background-color: rgb(47, 154, 247);
@@ -310,5 +313,136 @@ font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
 
-
 /* END CATEGORY SECTION */
+
+/*  START POPULAR PRODUCT SECTION  */
+
+.container-3 {
+   margin: 3vw;
+  padding: 3vw;
+  margin-top: 70px;
+  position: relative;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.heading h2 {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  position: absolute;
+  top: 55px;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  left: 45%;
+}
+.container-holder {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+.productcontainer1 {
+  background-color: rgb(11, 11, 174);
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+   cursor: pointer;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+.text h5 {
+  font-size: 1.3rem;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.text p {
+  margin-top: 2px;
+}
+
+.button {
+padding: 15px;
+border-radius: 5px;
+background-color: #2563EB;
+text-decoration: none;
+color: white;
+font-size: .5rem;
+top: 4%;
+ left: 10px;
+position: absolute;
+}
+.button:hover {
+  background-color: #1E40AF;
+  color: rgb(255, 255, 255);
+  font-size: .8rem;
+}
+
+/* .more {
+  position: absolute;
+  top: 97%;
+  left: 80%;
+}
+.details {
+  padding: 13px;
+  background-color: #2563EB;;
+  border-radius: 10px;
+ text-decoration: none;
+ color: white;
+ font-weight: 400;
+ font-style: oblique;
+ font-size: .9rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  END POPULAR PRODUCT SECTION  */

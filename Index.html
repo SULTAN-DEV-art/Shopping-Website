@@ -23,8 +23,9 @@
     <ul>
        <li class="dropdown"> <a class="dropbtn" href="#">Home</a>
         <div class="drop-content">
-         <a href="#">Category</a>
-         <a href="#">Deals/Offer</a>
+         <a href="#category">Category</a>
+         <a href="#Popular-product">Popular Products</a>
+         <a href="#">Products Details</a>
          <a href="#">About Us</a>
          <a href="#">Company</a>
         </div>
@@ -52,7 +53,7 @@
 <!----------------------- END HERO SECTION ----------------------------------->
 <!----------------------- START CATEGORY SECTION ----------------------------->
 
-<div class="SECTION">
+<div class="SECTION" id="category">
   <h3>Featured Categories</h3>
   <p>Shop by category to find what you need.</p>
 
@@ -76,19 +77,69 @@
   </div>
 </div>
 <br><br>
-<!----------------------- END CATEGORY SECTION ------------------------------->\
+<!----------------------- END CATEGORY SECTION ------------------------------->
 
 <!----------------------- START POPULAR PRODUCT SECTION ------------------------------->
 
+  <section class="container-3">
 <div class="container-2">
   <div class="heading">
     <h2>Popular Product</h2>
-    <p>Check out our best selling products for great deals and quality items.</p>
+    <p>Check out our best selling products  for great deals<br> <p class="centered"> and quality items.</p></p>
   </div>
-</div>
+ </div>
+ <div class="container-holder">
+     <div class="productcontainer1">
+   <a href="/details.html"> <img src="/images/Shoe.png" alt="" style="width: 100%;"></a>
+    <div  class="text">
+      <h5>Sneakers</h5>
+    <p>$99.99</p>
+    <a class="button" href="#">Add to cart <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+     <div class="productcontainer1">
+    <a href="/details.html"><img src="/images/Shoe.png" alt="" style="width: 100%;"></a>
+   <div class="text">
+      <h5>Sneakers</h5>
+    <p>$99.99</p>
+       <a class="button" href="#">Add to cart <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+     <div class="productcontainer1">
+    <a href="/details.html"><img src="/images/Shoe.png" alt="" style="width: 100%;"></a>
+   <div  class="text">
+      <h5>Sneakers</h5>
+    <p>$99.99</p>
+       <a class="button" href="#">Add to cart <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+     <div class="productcontainer1">
+     <a href="/details.html"><img src="/images/Shoe.png" alt="" style="width: 100%;"></a>
+    <div  class="text">
+      <h5>Sneakers</h5>
+    <p>$99.99</p>
+       <a class="button" href="#">Add to cart <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+     <div class="productcontainer1">
+     <a href="/details.html"><img src="/images/Shoe.png" alt="" style="width: 100%;"></a>
+     <div  class="text">
+      <h5>Sneakers</h5>
+    <p>$99.99</p>
+       <a class="button" href="#">Add to cart <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+ </div>
+  <!-- <div class="more">
+    <a class="details" href="#">View Products Details <i class="fa-solid fa-arrow-right"></i></a>
+  </div> -->
+  </section>
 
 
 
+<script>
+  let page = getElementByID('details');
+</script>
 
 
 
