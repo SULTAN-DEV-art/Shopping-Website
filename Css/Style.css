@@ -371,6 +371,10 @@ font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
   position: relative;
    cursor: pointer;
+   transition: 0.4s ease;
+}
+.productcontainer1:hover {
+   background-color: rgb(3, 3, 126);
 }
 
 .text {
@@ -403,10 +407,13 @@ position: absolute;
   font-size: .8rem;
 }
 
-/* .more {
+.more {
   position: absolute;
-  top: 97%;
+  top: 28%;
   left: 80%;
+}
+.details:hover {
+    background-color: #1E40AF;
 }
 .details {
   padding: 13px;
@@ -417,7 +424,7 @@ position: absolute;
  font-weight: 400;
  font-style: oblique;
  font-size: .9rem;
-} */
+}
 
 
 
