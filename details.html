@@ -11,45 +11,54 @@
 <body>
     <section class="product">
    <div class="productimg">
-    <img src="/images/Shoe.png" alt="" style="width: 200px;">
+  <div  class="main-image">  <img src="/images/Shoe.png" alt="" style="width: 240px;"></div>
     <div class="colors">
-         <img src="/images/Shoe.png" alt="" style="width: 100px;">
+        <div class="border">
+             <img src="/images/Shoe.png" alt="" style="width: 100px;">
           <img src="/images/Shoe.png" alt="" style="width: 100px;">
            <img src="/images/Shoe.png" alt="" style="width: 100px;">
             <img src="/images/Shoe.png" alt="" style="width: 100px;">
+        </div>
     </div>
    </div>
    <div class="details">
     <h3>Premium Leather Sneakers</h3>
-    <h5>#45,000</h5>
-    <span>60,000</span>
+    <h5 class="red">#45,000</h5>
+    <span class="beside">#60,000</span>
     <div class="container">
-       <span> <i class="fas fa-star"></i>
-       <span> <i class="fas fa-star"></i>
-       <span> <i class="fas fa-star"></i>
-       <span> <i class="fas fa-star"></i>
-       <span> <i class="fas fa-star"></i>
+       <span> <i class="fa fa-star" aria-hidden="true" id="yel"></i>
+        <span> <i class="fa fa-star" aria-hidden="true" id="yel"></i>
+        <span> <i class="fa fa-star" aria-hidden="true" id="yel"></i>
+       <span> <i class="fa fa-star" aria-hidden="true" id="yel"></i>
+       <span> <i class="fa fa-star" aria-hidden="true" id="yel"></i>
         <span>4.6 (124+ Reviews)</span>
         <div class="line">_________________________________________________ </div>
         <h5>High quality leather sneakers designed for all day comfort and style</h5>
-        <h6>color: </h6>
-        <span class="black"></span>
+        <h6>Color: </h6>
+        <div class="black"></div>
         <span class="white"></span>
         <span class="blue"></span>
         <span class="green"></span>
-        <h6>Size: </h6>
-        <span>S</span>
-        <span>M</span>
-        <span>L</span>
-        <span>XL</span>
+        <div class="line2">_________________________________________________ </div>
+        <!-- <h6>Size: </h6> -->
+       <div class="cont">
+         <h6 class="size">Size: </h6>
+         <select name="" id="chose">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+       </select>
+        <input class="number" type="number" value="" id="" min="1" max="4">
+       </div>
         <div class="quantity">
-            <input type="number" value="" id="" min="1" max="4">
-            <a href="#">Add to Cart</a>
+            <a class="button" href="#">Add to Cart</a>
             <div class="opinion">
-                <h6>Rate: <i></i></h6>
+                <h6><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Wishlist</h6>
             </div>
+            <div class="line2">_________________________________________________ </div>
             <div class="icon">
-                <span><i></i>Free Shipping</span>
+                <span><i class="fa fa-truck" aria-hidden="true"></i> Free Shipping</span>
                 <span><i></i>Secure Payment</span>
                 <span><i></i>Easy Returns</span>
             </div>
