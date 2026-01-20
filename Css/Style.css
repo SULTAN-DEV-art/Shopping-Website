@@ -24,7 +24,9 @@ nav {
     z-index: 1000;
 }
 .logo {
+  background-image: url(/images/logo1.png);
     cursor: pointer;
+    width: 170px;
 }
 .inputs {
   align-items: center;
@@ -226,11 +228,11 @@ font-family: Arial, Helvetica, sans-serif;
 .card .product1:hover {
   background-color: rgb(47, 154, 247);
   border: 3px solid white;
-  transform: translate(10px, 10px);
 }
 .card:hover i  {
-  color: rgb(4, 39, 100);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
+  font-weight: bold;
 }
 .name1 {
   position: absolute;
@@ -426,30 +428,121 @@ position: absolute;
  font-size: .9rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  END POPULAR PRODUCT SECTION  */
+
+
+
+/*  START REASONS SECTION  */
+
+.div {
+  margin-top: 100px;
+}
+.div h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.1rem;
+}
+.div p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+.reasons {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-content: center;
+  gap: 1rem;
+  padding: 60px;
+  position: relative;
+}
+.cards {
+  padding: 80px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cards h4 {
+ display: flex;
+ justify-content: center;
+  align-items: center;
+ font-size: 1.6rem;
+}
+.cards p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.cent {
+  position: absolute;
+  top: 230px;
+}
+#one {
+  position: absolute;
+  font-size: 3rem;
+  color: blue;
+  top: 85px;
+  left: 215px;
+}
+#two {
+  position: absolute;
+  font-size: 3rem;
+  color: blue;
+  top: 85px;
+  left: 585px;
+}
+#three {
+  position: absolute;
+  font-size: 3rem;
+  color: blue;
+  top: 85px;
+  left: 985px;
+}
+#four {
+  position: absolute;
+  font-size: 3rem;
+  color: gold;
+  top: 340px;
+  left: 215px;
+}
+#five {
+  position: absolute;
+  font-size: 3rem;
+  color: blue;
+  top: 340px;
+  left: 585px;
+}
+#six {
+  position: absolute;
+  font-size: 3rem;
+  color: blue;
+  top: 340px;
+  left: 985px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  END REASONS SECTION  */
