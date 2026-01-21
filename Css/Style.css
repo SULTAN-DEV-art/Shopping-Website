@@ -527,22 +527,60 @@ position: absolute;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  END REASONS SECTION  */
+
+
+/* START REVIEW SECTION */
+#end {
+margin-top: 100px;;
+}
+
+.Talks {
+  position: absolute;
+  left: 410px;
+  margin-top: 40px;;
+}
+.Talks h2 {
+  font-size: 2.7rem;
+}
+.Talks p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ margin-right: 10px;;
+ font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END REVIEW SECTION */
