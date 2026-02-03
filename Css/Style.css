@@ -114,10 +114,18 @@ i {
    display: flex;
   gap: 2px;
 }
-
+.cont {
+  display: none;
+}
 #blue {
   color: rgb(24, 101, 232);
   font-weight: 500;
+}
+#blued {
+ display: none;
+}
+#bluedd {
+ display: none;
 }
 /* END NAVBAR SECTION */
 
@@ -137,18 +145,20 @@ i {
   line-height: 5px;
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   left: 270px;
+  display: flex;
   justify-content: center;
   z-index: 999;
   color: rgb(255, 255, 255);
+  flex-wrap: wrap;
 }
 .center-1 {
   position: absolute;
   top: 240px;
   font-size: 1rem;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   left: 425px;
   justify-content: center;
   z-index: 999;
@@ -499,7 +509,7 @@ position: absolute;
   font-size: 3rem;
   color: blue;
   top: 85px;
-  left: 585px;
+  left: 605px;
 }
 #three {
   position: absolute;
@@ -709,7 +719,7 @@ font-weight: 300;
   align-items: center;
   gap: 1rem;
   position: relative;
-  background-color: white;
+  background-color: #fff;
   padding: 100px;
   height: 240px;
   width: 100%;
@@ -719,6 +729,7 @@ font-weight: 300;
 .tops {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: absolute;
   top: 40px;
   left: 100px;
@@ -729,7 +740,8 @@ font-weight: 300;
 }
 #foot i {
   color: blue;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  margin-left: -24px;
 }
 .div-a {
   position: absolute;
@@ -796,64 +808,723 @@ color: black;
   font-weight: 500;
   font-family: Arial;
 }
+.link {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+  margin-top: 10px;;
+  font-size: 1.2rem;
+}
+
+.fa-map-marker {
+  color: blue;
+}
+.fa-phone {
+  color: blue;
+}
+.fa-question-circle {
+  color: blue;
+}
+
+.sects {
+  margin-top: 30px;;
+  background-color: bisque;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+
+.copy {
+  position: relative;
+  left: 20px;
+}
+.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 210px;
+  gap: 10px;
+}
+.payments p {
+   font-size: 1.3rem;
+}
+.pry {
+  position: relative;
+  left: 120px;
+}
+.pry h6 {
+  font-size: 1rem;
+}
 
 
+.fa-credit-card-alt {
+  color: blue
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fa-credit-card {
+  color: red
+}
 
 /* END FOOTER SECTION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ @media (max-width: 392px) {
+
+.bg {
+    width: 160%;
+    height: 600px;
+    opacity: 0.9;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    padding: .2rem;
+    width: 141%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    place-content: center;
+}
+.inputs input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    position: relative;
+    left: 80px;
+}
+.inputs .search {
+ position: absolute;
+  left: 340px; 
+  font-size: 1rem;
+  color:rgb(0, 0, 0);
+  top: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+.inputs .search:hover {
+  color: rgb(24, 101, 232); 
+}
+ul {
+  overflow: hidden;
+  background-color: rgb(24, 101, 232); 
+  border-radius: 5px;
+  list-style-type: none;
+  margin-right: 50px;
+  z-index: 1000;
+}
+li{
+  float: right;
+}
+ li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 7px 16px;
+text-decoration: none;
+}
+
+li a:hover, .drop-content:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+li.dropdown{
+  display: inline-block;
+}
+.drop-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+}
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .drop-content{
+  display: block;
+}
+.container {
+  display: initial;
+}
+#blue {
+  display: none;
+}
+#blued {
+  display: flex;
+  color: white;
+  font-size: 2.3rem;
+  z-index: 1000;
+  position: relative;
+  left: 17px;
+  top: -18px;
+  cursor: pointer;
+}
+#bluedd {
+  display: flex;
+  color: white;
+  font-size: 2.3rem;
+  z-index: 1000;
+  position: relative;
+  right: 60px;
+  top: 17px;
+  cursor: pointer;
+}
+#blued:hover {
+  padding: 5px;
+  background-color: blue;
+}
+#bluedd:hover {
+  padding: 5px;
+  background-color: blue;
+}
+.center {
+    position: absolute;
+    top: 200px;
+    line-height: 3px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0px;
+    justify-content: center;
+    z-index: 1000;
+    color: rgb(255, 255, 255);
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 768px) {
+
+element.style {
+    width: 190px;
+}
+
+  nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(0, 0, 0);
+  padding: .2rem;
+    width: 141%;
+   position: sticky;
+    top: 0;
+    z-index: 1000;
+    place-content: center;
+}
+.inputs .search {
+ position: absolute;
+  left: 540px; 
+  font-size: 1rem;
+  color:rgb(0, 0, 0);
+  top: 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+.inputs .search:hover {
+  color: rgb(24, 101, 232); 
+}
+ul {
+  overflow: hidden;
+  background-color: rgb(24, 101, 232); 
+  border-radius: 5px;
+  list-style-type: none;
+  margin-right: 90px;
+}
+li{
+  float: right;
+}
+ li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 7px 16px;
+text-decoration: none;
+}
+
+li a:hover, .drop-content:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+li.dropdown{
+  display: inline-block;
+}
+.drop-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+}
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .drop-content{
+  display: block;
+}
+.container {
+  display: initial;
+}
+#blue {
+  display: none;
+}
+#blued {
+  display: flex;
+  color: white;
+  font-size: 2.3rem;
+  z-index: 1000;
+  position: relative;
+  left: 17px;
+  top: -18px;
+  cursor: pointer;
+}
+#bluedd {
+  display: flex;
+  color: white;
+  font-size: 2.3rem;
+  z-index: 1000;
+  position: relative;
+  right: 60px;
+  top: 13px;
+  cursor: pointer;
+}
+#blued:hover {
+  padding: 5px;
+  background-color: blue;
+}
+#bluedd:hover {
+  padding: 5px;
+  background-color: blue;
+}
+.container-1 {
+  position: relative;
+  z-index: 0;
+  width: 141%;
+}
+.center {
+  position: absolute;
+  left: 200px; 
+}
+.center-1 {
+  position: absolute;
+  left: 320px;
+}
+.center-2 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(24, 101, 232);;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  right: 80px;
+}
+.SECTION {
+    margin: 3vw;
+    padding: 3vw;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.SECTION  h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+}
+.SECTION  p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 250px;
+}
+.product1 {
+    margin-left: 10px;
+    background-color: rgb(24, 106, 178);
+    max-width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    left: 130px;
+    transition: 0.3s ease-in-out;
+}
+.product1:hover {
+    background-color: rgb(10, 82, 146);
+}
+.name1 {
+  position: absolute;
+  left: 105px;
+  top: 135px;
+  right: 0px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+ .name2 {
+  position: absolute;
+  left: 254px;
+  top: 135px;
+  right: 0px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.name3 {
+  position: absolute;
+  left: 435px;
+  top: 140px;
+  right: 0px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.name4 {
+  position: absolute;
+  left: 595px;
+  top: 140px;
+  right: 0px;
+ font-size: 1.2rem;
+ color: rgb(255, 255, 255);
+}
+.name5 {
+  position: absolute;
+  left: 784px;
+  top: 140px;
+  right: 0px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+} 
+.arrow-1 {
+  position: absolute;
+  color: rgb(255, 4, 4);
+  z-index: 999;
+  left: 160px;
+  top: 10%;
+   cursor: pointer;
+   font-size: 1rem;
+   z-index: 1000;
+}
+.arrow-2 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  z-index: 999;
+  left: 329px;
+  top: 10%;
+   cursor: pointer;
+   z-index: 1000;
+}
+.arrow-3 {
+  position: absolute;
+  color: black;
+  z-index: 999;
+  left: 497px;
+  top: 10%;
+   cursor: pointer;
+   z-index: 1000;
+}
+.arrow-4 {
+  position: absolute;
+  color: black;
+  z-index: 1000;
+  left: 670px;
+  top: 10%;
+   cursor: pointer;
+}
+.arrow-5 {
+  position: absolute;
+  z-index: 1000;
+  left: 837px;
+  top: 10%;
+  cursor: pointer;
+}
+.container-3 {
+    margin: 3vw;
+    padding: 3vw;
+    margin-top: 140px;
+    position: relative;
+}
+.heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.9rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 120px;
+    top: 35px;
+}
+.heading p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    position: absolute;
+    top: 105px;
+    left: 280px;
+    text-align: center;
+}
+.container-3 {
+   margin: 3vw;
+  padding: 3vw;
+  margin-top: 70px;
+  position: relative;
+}
+.container-holder {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  width: 120%;
+  height: 100%;
+  left: 70px;
+}
+#t-shirt {
+  display: none;
+}
+.details {
+    padding: 5px;
+    background-color: #2563EB;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: .9rem;
+    width: 100%;
+    position: relative;
+    right: 100px;
+    display: inline-flex;
+    top: 25px;
+    left: 170px;
+}
+.div {
+    margin-top: 90px;
+    margin-left: 270px;
+}
+.reasons {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    place-content: center;
+    gap: 1rem;
+    padding: 60px;
+    position: relative;
+    left: 130px;
+    text-align: center;
+}
+#one {
+  position: absolute;
+  font-size: 2.5rem;
+  color: blue;
+  top: 85px;
+  left: 190px;
+}
+
+#two {
+  position: absolute;
+  font-size: 2.5rem;
+  color: blue;
+  top: 85px;
+  left: 520px;
+}
+#three {
+  position: absolute;
+  font-size: 2.5rem;
+  color: blue;
+  top: 375px;
+  left: 195px;
+}
+#four {
+  position: absolute;
+  font-size: 2.5rem;
+  color: blue;
+  top: 374px;
+  left: 525px;
+}
+#five {
+  position: absolute;
+  font-size: 2.5rem;
+  color: blue;
+  top: 660px;
+  left: 195px;
+}
+#six {
+  position: absolute;
+  font-size: 2.7rem;
+  color: blue;
+  top: 650px;
+  left: 518px;
+}
+.Talks {
+  position: absolute;
+  left: 310px;
+  margin-top: 40px;;
+}
+.Talks h2 {
+  font-size: 2.7rem;
+}
+.Talks p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ margin-right: 10px;;
+ font-size: 1.4rem;
+}
+#end {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;;
+  gap: 2.3rem;
+  align-items: center;
+}
+.card3 {
+  padding: 70px 70px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 140px;
+}
+.call-to-act {
+    background-color: blue;
+    padding: 100px;
+    width: 141%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.ctass {
+  background-color: rgb(3, 3, 126);
+  padding: 10px 55px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border: 3px solid white;
+  transition: 0.3s ease-in;
+}
+.ctass:hover {
+  color: black;
+  background-color: white;
+}
+.ctass:hover i {
+  color: black;
+}
+#cta {
+  position: absolute;
+  top: 242px;
+  text-align: center;
+  align-items: center;
+  right: 457px;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 140px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    background-color: #fff;
+    padding: 100px;
+    height: 240px;
+    width: 140%;
+    justify-content: center;
+}
+.div-b {
+position: absolute;
+right: 595px;
+top: 44px;
+}
+.div-c {
+position: absolute;
+right: 325px;
+top: 44px;
+}
+.div-d {
+    position: absolute;
+    right: 30px;
+    top: 44px;
+    color: black;
+}
+}

@@ -390,3 +390,40 @@ h6 {
 #whites {
     color: white;
 }
+
+
+
+
+@media (max-width: 768px) {
+ 
+    .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+    .details {
+   position: absolute;
+   right: 148px;
+   top: 660px;
+}   
+.main-image {
+    margin-right: 530px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 60px 100px;
+    z-index: 999;
+    cursor: pointer;
+    position: relative;
+    left: 280px;
+    top: -230px;
+}
+.border {
+    margin-top: 12px;
+    margin-left: 0px;
+    position: absolute;
+    left: 230px;
+    top: 540px;
+}
+}
