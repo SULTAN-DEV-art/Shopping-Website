@@ -886,7 +886,7 @@ color: black;
 
 
  
- @media (max-width: 392px) {
+ /* @media (max-width: 392px) {
 
 .bg {
     width: 160%;
@@ -1015,7 +1015,7 @@ li.dropdown{
     z-index: 1000;
     color: rgb(255, 255, 255);
 }
-} 
+}  */
 
 
 
@@ -1048,9 +1048,7 @@ li.dropdown{
 
  @media(max-width: 768px) {
 
-element.style {
-    width: 190px;
-}
+
 
   nav {
   display: flex;
@@ -1059,7 +1057,7 @@ element.style {
   justify-content: space-between;
   background: rgb(0, 0, 0);
   padding: .2rem;
-    width: 141%;
+    width: 100%;
    position: sticky;
     top: 0;
     z-index: 1000;
@@ -1126,12 +1124,12 @@ li.dropdown{
 }
 #blued {
   display: flex;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 2.3rem;
   z-index: 1000;
   position: relative;
   left: 17px;
-  top: -18px;
+  top: -14px;
   cursor: pointer;
 }
 #bluedd {
@@ -1141,21 +1139,14 @@ li.dropdown{
   z-index: 1000;
   position: relative;
   right: 60px;
-  top: 13px;
+  top: 20px;
   cursor: pointer;
 }
-#blued:hover {
-  padding: 5px;
-  background-color: blue;
-}
-#bluedd:hover {
-  padding: 5px;
-  background-color: blue;
-}
+
 .container-1 {
   position: relative;
   z-index: 0;
-  width: 141%;
+  width: 100%;
 }
 .center {
   position: absolute;
@@ -1179,8 +1170,8 @@ li.dropdown{
 .SECTION {
     margin: 3vw;
     padding: 3vw;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-right: 200px;
 }
 .SECTION  h3 {
     text-align: center;
@@ -1213,7 +1204,7 @@ li.dropdown{
     align-items: center;
     position: relative;
     cursor: pointer;
-    left: 130px;
+    left: 100px;
     transition: 0.3s ease-in-out;
 }
 .product1:hover {
@@ -1221,7 +1212,7 @@ li.dropdown{
 }
 .name1 {
   position: absolute;
-  left: 105px;
+  left: 141px;
   top: 135px;
   right: 0px;
   font-size: 1.2rem;
@@ -1229,7 +1220,7 @@ li.dropdown{
 }
  .name2 {
   position: absolute;
-  left: 254px;
+  left: 294px;
   top: 135px;
   right: 0px;
   font-size: 1.2rem;
@@ -1237,7 +1228,7 @@ li.dropdown{
 }
 .name3 {
   position: absolute;
-  left: 435px;
+  left: 470px;
   top: 140px;
   right: 0px;
   font-size: 1.2rem;
@@ -1245,7 +1236,7 @@ li.dropdown{
 }
 .name4 {
   position: absolute;
-  left: 595px;
+  left: 635px;
   top: 140px;
   right: 0px;
  font-size: 1.2rem;
@@ -1253,7 +1244,7 @@ li.dropdown{
 }
 .name5 {
   position: absolute;
-  left: 784px;
+  left: 821px;
   top: 140px;
   right: 0px;
   font-size: 1.2rem;
@@ -1263,7 +1254,7 @@ li.dropdown{
   position: absolute;
   color: rgb(255, 4, 4);
   z-index: 999;
-  left: 160px;
+  left: 197px;
   top: 10%;
    cursor: pointer;
    font-size: 1rem;
@@ -1273,7 +1264,7 @@ li.dropdown{
   position: absolute;
   color: rgb(255, 255, 255);
   z-index: 999;
-  left: 329px;
+  left: 359px;
   top: 10%;
    cursor: pointer;
    z-index: 1000;
@@ -1282,7 +1273,7 @@ li.dropdown{
   position: absolute;
   color: black;
   z-index: 999;
-  left: 497px;
+  left: 537px;
   top: 10%;
    cursor: pointer;
    z-index: 1000;
@@ -1291,14 +1282,14 @@ li.dropdown{
   position: absolute;
   color: black;
   z-index: 1000;
-  left: 670px;
+  left: 710px;
   top: 10%;
    cursor: pointer;
 }
 .arrow-5 {
   position: absolute;
   z-index: 1000;
-  left: 837px;
+  left: 877px;
   top: 10%;
   cursor: pointer;
 }
@@ -1316,7 +1307,7 @@ li.dropdown{
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 120px;
+    left: 45px;
     top: 35px;
 }
 .heading p {
@@ -1328,8 +1319,16 @@ li.dropdown{
     font-weight: 200;
     position: absolute;
     top: 105px;
-    left: 280px;
+    left: 370px;
     text-align: center;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  right: 270px;
 }
 .container-3 {
    margin: 3vw;
@@ -1344,15 +1343,16 @@ li.dropdown{
   justify-content: center;
   gap: 10px;
   position: relative;
-  width: 120%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   left: 70px;
+  max-width: 880px;
 }
 #t-shirt {
   display: none;
 }
 .details {
-    padding: 5px;
+    padding: 10px;
     background-color: #2563EB;
     border-radius: 10px;
     text-decoration: none;
@@ -1364,8 +1364,8 @@ li.dropdown{
     position: relative;
     right: 100px;
     display: inline-flex;
-    top: 25px;
-    left: 170px;
+    top: 5px;
+    left: -10px;
 }
 .div {
     margin-top: 90px;
